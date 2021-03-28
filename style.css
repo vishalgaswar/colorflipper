@@ -11,6 +11,11 @@ body{
     background-color: #4d4d4d;
     position: relative;
 }
-.nav .nav-center{
+.nav >.nav-center{
     display: inline;
+}
+.nav ul li {
+    width: 50%;
+    float: left;
+    position:relative;
 }
