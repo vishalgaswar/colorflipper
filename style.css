@@ -4,20 +4,32 @@
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkseagreen;
 }
-.nav{
-    height: 50px;
-    width: 100%;
-    background-color: red;
-    position: relative;
-    margin: 0;
-}
-.nav >.nav-center{
-    display: inline;
-}
-.nav ul li {
+
+#main-div {
+    margin-top: 150px;
+    text-align: center;
+    justify-content: center;
     width: 50%;
-    float: left;
-    position:relative;
+    padding: 20px;
 }
+.box-size{
+    width: 50%;
+}
+.color-box{
+    background-color: #000000;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 25px;
+    box-shadow: ;
+}
+span{
+    background-color: #fff;
+    color: #111;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+
 
